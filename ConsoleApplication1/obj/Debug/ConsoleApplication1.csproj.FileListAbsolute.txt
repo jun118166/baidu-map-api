@@ -1,0 +1,5 @@
+C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

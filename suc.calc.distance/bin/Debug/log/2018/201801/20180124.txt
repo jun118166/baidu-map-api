@@ -1,0 +1,96 @@
+
+ 
+记录时间：2018-01-24 14:26:04,285 
+线程ID:[8] 
+日志级别：  ERROR 
+出错类：suc.calc.distance.Form1 property: [(null)] - 
+错误描述：Error
+ 
+System.Exception: 配置系统未能初始化
+   在 suc.calc.distance.ExcelHelper.ExcelToDataTable(String sheetName, Boolean isFirstRowColumn, String fileName) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\ExcelHelper.cs:行号 102
+   在 suc.calc.distance.Form1.OpenFile(String filePath) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\Form1.cs:行号 58
+   在 suc.calc.distance.Form1.btnGen_Click(Object sender, EventArgs e) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\Form1.cs:行号 32
+
+ 
+记录时间：2018-01-24 14:40:00,321 
+线程ID:[8] 
+日志级别：  ERROR 
+出错类：suc.calc.distance.Form1 property: [(null)] - 
+错误描述：Error
+ 
+System.Exception: 配置系统未能初始化
+   在 suc.calc.distance.ExcelHelper.ExcelToDataTable(String sheetName, Boolean isFirstRowColumn, String fileName) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\ExcelHelper.cs:行号 102
+   在 suc.calc.distance.Form1.OpenFile(String filePath) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\Form1.cs:行号 58
+   在 suc.calc.distance.Form1.btnGen_Click(Object sender, EventArgs e) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\Form1.cs:行号 32
+
+ 
+记录时间：2018-01-24 14:40:14,419 
+线程ID:[8] 
+日志级别：  ERROR 
+出错类：suc.calc.distance.Form1 property: [(null)] - 
+错误描述：Error
+ 
+System.Exception: 配置系统未能初始化
+   在 suc.calc.distance.ExcelHelper.ExcelToDataTable(String sheetName, Boolean isFirstRowColumn, String fileName) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\ExcelHelper.cs:行号 102
+   在 suc.calc.distance.Form1.OpenFile(String filePath) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\Form1.cs:行号 58
+   在 suc.calc.distance.Form1.btnGen_Click(Object sender, EventArgs e) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\Form1.cs:行号 32
+
+ 
+记录时间：2018-01-24 14:40:19,497 
+线程ID:[8] 
+日志级别：  ERROR 
+出错类：suc.calc.distance.Form1 property: [(null)] - 
+错误描述：Error
+ 
+System.Exception: 配置系统未能初始化
+   在 suc.calc.distance.ExcelHelper.ExcelToDataTable(String sheetName, Boolean isFirstRowColumn, String fileName) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\ExcelHelper.cs:行号 102
+   在 suc.calc.distance.Form1.OpenFile(String filePath) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\Form1.cs:行号 58
+   在 suc.calc.distance.Form1.btnGen_Click(Object sender, EventArgs e) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\Form1.cs:行号 32
+
+ 
+记录时间：2018-01-24 14:41:30,033 
+线程ID:[8] 
+日志级别：  ERROR 
+出错类：suc.calc.distance.Form1 property: [(null)] - 
+错误描述：Error
+ 
+System.Exception: 配置系统未能初始化
+   在 suc.calc.distance.ExcelHelper.ExcelToDataTable(String sheetName, Boolean isFirstRowColumn, String fileName) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\ExcelHelper.cs:行号 102
+   在 suc.calc.distance.Form1.OpenFile(String filePath) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\Form1.cs:行号 58
+   在 suc.calc.distance.Form1.btnGen_Click(Object sender, EventArgs e) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\Form1.cs:行号 32
+
+ 
+记录时间：2018-01-24 14:42:14,018 
+线程ID:[8] 
+日志级别：  ERROR 
+出错类：suc.calc.distance.Form1 property: [(null)] - 
+错误描述：Error
+ 
+System.Exception: 配置系统未能初始化
+   在 suc.calc.distance.ExcelHelper.ExcelToDataTable(String sheetName, Boolean isFirstRowColumn, String fileName) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\ExcelHelper.cs:行号 102
+   在 suc.calc.distance.Form1.OpenFile(String filePath) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\Form1.cs:行号 58
+   在 suc.calc.distance.Form1.btnGen_Click(Object sender, EventArgs e) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\Form1.cs:行号 32
+
+ 
+记录时间：2018-01-24 14:43:57,883 
+线程ID:[9] 
+日志级别：  ERROR 
+出错类：suc.calc.distance.Form1 property: [(null)] - 
+错误描述：Error
+ 
+System.Exception: 配置系统未能初始化
+   在 suc.calc.distance.ExcelHelper.ExcelToDataTable(String sheetName, Boolean isFirstRowColumn, String fileName) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\ExcelHelper.cs:行号 102
+   在 suc.calc.distance.Form1.OpenFile(String filePath) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\Form1.cs:行号 58
+   在 suc.calc.distance.Form1.btnGen_Click(Object sender, EventArgs e) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\Form1.cs:行号 32
+
+ 
+记录时间：2018-01-24 14:44:40,645 
+线程ID:[9] 
+日志级别：  ERROR 
+出错类：suc.calc.distance.Form1 property: [(null)] - 
+错误描述：Error
+ 
+System.Exception: 配置系统未能初始化
+   在 suc.calc.distance.ExcelHelper.ExcelToDataTable(String sheetName, Boolean isFirstRowColumn, String fileName) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\ExcelHelper.cs:行号 102
+   在 suc.calc.distance.Form1.OpenFile(String filePath) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\Form1.cs:行号 58
+   在 suc.calc.distance.Form1.btnGen_Click(Object sender, EventArgs e) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\Form1.cs:行号 32

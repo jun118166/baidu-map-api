@@ -1,0 +1,68 @@
+
+ 
+记录时间：2018-03-16 10:49:15,201 
+线程ID:[8] 
+日志级别：  ERROR 
+出错类：suc.calc.distance.Form1 property: [(null)] - 
+错误描述：Error
+ 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 suc.calc.distance.Form1.OpenFile(String filePath) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\Form1.cs:行号 63
+   在 suc.calc.distance.Form1.btnGen_Click(Object sender, EventArgs e) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\Form1.cs:行号 32
+
+ 
+记录时间：2018-03-16 10:49:26,772 
+线程ID:[8] 
+日志级别：  ERROR 
+出错类：suc.calc.distance.Form1 property: [(null)] - 
+错误描述：Error
+ 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 suc.calc.distance.Form1.OpenFile(String filePath) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\Form1.cs:行号 63
+   在 suc.calc.distance.Form1.btnGen_Click(Object sender, EventArgs e) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\Form1.cs:行号 32
+
+ 
+记录时间：2018-03-16 10:52:41,956 
+线程ID:[10] 
+日志级别：  ERROR 
+出错类：suc.calc.distance.Form1 property: [(null)] - 
+错误描述：Error
+ 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 suc.calc.distance.Form1.OpenFile(String filePath) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\Form1.cs:行号 63
+   在 suc.calc.distance.Form1.btnGen_Click(Object sender, EventArgs e) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\Form1.cs:行号 32
+
+ 
+记录时间：2018-03-16 10:59:05,640 
+线程ID:[9] 
+日志级别：  ERROR 
+出错类：suc.calc.distance.Form1 property: [(null)] - 
+错误描述：Error
+ 
+System.IO.IOException: 文件“E:\广州地址.xlsx”正由另一进程使用，因此该进程无法访问此文件。
+   在 suc.calc.distance.ExcelHelper.ExcelToDataTable(String sheetName, Boolean isFirstRowColumn, String fileName) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\ExcelHelper.cs:行号 98
+   在 suc.calc.distance.Form1.OpenFile(String filePath) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\Form1.cs:行号 58
+   在 suc.calc.distance.Form1.btnGen_Click(Object sender, EventArgs e) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\Form1.cs:行号 32
+
+ 
+记录时间：2018-03-16 11:18:28,968 
+线程ID:[9] 
+日志级别：  ERROR 
+出错类：suc.calc.distance.Form1 property: [(null)] - 
+错误描述：Error
+ 
+System.IO.IOException: 文件“E:\广州地址.xlsx”正由另一进程使用，因此该进程无法访问此文件。
+   在 suc.calc.distance.ExcelHelper.ExcelToDataTable(String sheetName, Boolean isFirstRowColumn, String fileName) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\ExcelHelper.cs:行号 98
+   在 suc.calc.distance.Form1.OpenFile(String filePath) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\Form1.cs:行号 58
+   在 suc.calc.distance.Form1.btnGen_Click(Object sender, EventArgs e) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\Form1.cs:行号 32
+
+ 
+记录时间：2018-03-16 15:47:46,153 
+线程ID:[8] 
+日志级别：  ERROR 
+出错类：suc.calc.distance.Form1 property: [(null)] - 
+错误描述：Error
+ 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 suc.calc.distance.Form1.OpenFile(String filePath) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\Form1.cs:行号 63
+   在 suc.calc.distance.Form1.btnGen_Click(Object sender, EventArgs e) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\Form1.cs:行号 32

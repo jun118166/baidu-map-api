@@ -1,0 +1,17 @@
+C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\calc.distance.console\bin\Debug\calc.distance.console.exe.config
+C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\calc.distance.console\bin\Debug\System.xml
+C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\calc.distance.console\bin\Debug\file\模板.xlsx
+C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\calc.distance.console\bin\Debug\file\模板输出文档.xls
+C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\calc.distance.console\bin\Debug\calc.distance.console.exe
+C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\calc.distance.console\bin\Debug\calc.distance.console.pdb
+C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\calc.distance.console\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\calc.distance.console\bin\Debug\log4net.dll
+C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\calc.distance.console\bin\Debug\NPOI.dll
+C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\calc.distance.console\bin\Debug\NPOI.OOXML.dll
+C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\calc.distance.console\bin\Debug\NPOI.OpenXml4Net.dll
+C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\calc.distance.console\bin\Debug\NPOI.OpenXmlFormats.dll
+C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\calc.distance.console\bin\Debug\log4net.xml
+C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\calc.distance.console\bin\Debug\NPOI.xml
+C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\calc.distance.console\obj\Debug\calc.distance.console.csprojResolveAssemblyReference.cache
+C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\calc.distance.console\obj\Debug\calc.distance.console.exe
+C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\calc.distance.console\obj\Debug\calc.distance.console.pdb

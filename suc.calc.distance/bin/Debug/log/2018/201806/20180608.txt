@@ -1,0 +1,93 @@
+
+ 
+记录时间：2018-06-08 13:52:57,917 
+线程ID:[8] 
+日志级别：  ERROR 
+出错类：suc.calc.distance.Form1 property: [(null)] - 
+错误描述：Error
+ 
+System.UnauthorizedAccessException: 对路径“C:\输出文档.xls”的访问被拒绝。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 suc.calc.distance.ExcelHelper.RenderToExcel[T](List`1 datas, String filePath) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\ExcelHelper.cs:行号 173
+   在 suc.calc.distance.Form1.expExcel(List`1 sourceList) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\Form1.cs:行号 164
+   在 suc.calc.distance.Form1.btnGen_Click(Object sender, EventArgs e) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\Form1.cs:行号 39
+
+ 
+记录时间：2018-06-08 13:53:18,039 
+线程ID:[8] 
+日志级别：  ERROR 
+出错类：suc.calc.distance.Form1 property: [(null)] - 
+错误描述：Error
+ 
+System.UnauthorizedAccessException: 对路径“C:\输出文档.xls”的访问被拒绝。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 suc.calc.distance.ExcelHelper.RenderToExcel[T](List`1 datas, String filePath) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\ExcelHelper.cs:行号 173
+   在 suc.calc.distance.Form1.expExcel(List`1 sourceList) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\Form1.cs:行号 164
+   在 suc.calc.distance.Form1.btnGen_Click(Object sender, EventArgs e) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\Form1.cs:行号 39
+
+ 
+记录时间：2018-06-08 14:02:27,291 
+线程ID:[8] 
+日志级别：  ERROR 
+出错类：suc.calc.distance.Form1 property: [(null)] - 
+错误描述：Error
+ 
+System.IO.DirectoryNotFoundException: 未能找到路径“E:\广州地址.xlsx\输出文档.xls”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 suc.calc.distance.ExcelHelper.RenderToExcel[T](List`1 datas, String filePath) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\ExcelHelper.cs:行号 173
+   在 suc.calc.distance.Form1.expExcel(List`1 sourceList) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\Form1.cs:行号 163
+   在 suc.calc.distance.Form1.btnGen_Click(Object sender, EventArgs e) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\Form1.cs:行号 39
+
+ 
+记录时间：2018-06-08 14:03:35,224 
+线程ID:[8] 
+日志级别：  ERROR 
+出错类：suc.calc.distance.Form1 property: [(null)] - 
+错误描述：Error
+ 
+System.IO.IOException: 未能找到文件“E:\广州地址”。
+   在 suc.calc.distance.ExcelHelper.ExcelToDataTable(String sheetName, Boolean isFirstRowColumn, String fileName) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\ExcelHelper.cs:行号 98
+   在 suc.calc.distance.Form1.OpenFile(String filePath) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\Form1.cs:行号 58
+   在 suc.calc.distance.Form1.btnGen_Click(Object sender, EventArgs e) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\Form1.cs:行号 32
+
+ 
+记录时间：2018-06-08 14:04:07,411 
+线程ID:[8] 
+日志级别：  ERROR 
+出错类：suc.calc.distance.Form1 property: [(null)] - 
+错误描述：Error
+ 
+System.ArgumentNullException: 值不能为 null。
+   在 suc.calc.distance.ExcelHelper.ExcelToDataTable(String sheetName, Boolean isFirstRowColumn, String fileName) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\ExcelHelper.cs:行号 33
+   在 suc.calc.distance.Form1.OpenFile(String filePath) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\Form1.cs:行号 59
+   在 suc.calc.distance.Form1.btnGen_Click(Object sender, EventArgs e) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\Form1.cs:行号 33
+
+ 
+记录时间：2018-06-08 14:04:09,574 
+线程ID:[8] 
+日志级别：  ERROR 
+出错类：suc.calc.distance.Form1 property: [(null)] - 
+错误描述：Error
+ 
+System.ArgumentNullException: 值不能为 null。
+   在 suc.calc.distance.ExcelHelper.ExcelToDataTable(String sheetName, Boolean isFirstRowColumn, String fileName) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\ExcelHelper.cs:行号 33
+   在 suc.calc.distance.Form1.OpenFile(String filePath) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\Form1.cs:行号 59
+   在 suc.calc.distance.Form1.btnGen_Click(Object sender, EventArgs e) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\Form1.cs:行号 33
+
+ 
+记录时间：2018-06-08 14:13:40,458 
+线程ID:[8] 
+日志级别：  ERROR 
+出错类：suc.calc.distance.Form1 property: [(null)] - 
+错误描述：Error
+ 
+System.ArgumentNullException: 值不能为 null。
+   在 suc.calc.distance.ExcelHelper.ExcelToDataTable(String sheetName, Boolean isFirstRowColumn, String fileName) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\ExcelHelper.cs:行号 33
+   在 suc.calc.distance.Form1.OpenFile(String filePath) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\Form1.cs:行号 61
+   在 suc.calc.distance.Form1.btnGen_Click(Object sender, EventArgs e) 位置 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\suc.calc.distance\Form1.cs:行号 33

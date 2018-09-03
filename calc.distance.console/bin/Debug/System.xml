@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <!--filepath路径-->
+  <filePath value="e:\模板.xlsx"></filePath>
+  <!--百度key-->
+  <baiduKey value="CjcduvmMuUO1Ow2oaj0G2mOGtcq8G79O"></baiduKey>
+</configuration>
