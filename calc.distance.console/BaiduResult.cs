@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace suc.calc.distance
 {
-    public class Geocoder
+    public class BaiduResult
     {
         public string status { get; set; }
         public Result result { get; set; }

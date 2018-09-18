@@ -4,4 +4,6 @@
   <filePath value="e:\模板.xlsx"></filePath>
   <!--百度key-->
   <baiduKey value="CjcduvmMuUO1Ow2oaj0G2mOGtcq8G79O"></baiduKey>
+  <!--高德key,多个以逗号隔开bf676db25cc6490e1c9a50ca0830bd24,-->
+  <gaodeKey value="d5fb63b9bf8fa8e1cbd933d3635475e5"></gaodeKey>
 </configuration>

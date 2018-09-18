@@ -12,6 +12,6 @@ C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\calc
 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\calc.distance.console\bin\Debug\NPOI.OpenXmlFormats.dll
 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\calc.distance.console\bin\Debug\log4net.xml
 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\calc.distance.console\bin\Debug\NPOI.xml
-C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\calc.distance.console\obj\Debug\calc.distance.console.csprojResolveAssemblyReference.cache
 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\calc.distance.console\obj\Debug\calc.distance.console.exe
 C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\calc.distance.console\obj\Debug\calc.distance.console.pdb
+C:\Users\wangzhijun\documents\visual studio 2015\Projects\suc.calc.distance\calc.distance.console\obj\Debug\calc.distance.console.csprojResolveAssemblyReference.cache

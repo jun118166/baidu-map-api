@@ -33,9 +33,10 @@ namespace calc.distance.console
 
             startTime = DateTime.Now;
             filePath = ReadXml("filePath");
-            //pageSize = int.Parse(ReadXml("threadSize"));
+  
             BaiduMap.apiKey = ReadXml("baiduKey");
 
+            GaodeMap.apiKey = ReadXml("gaodeKey");
             //打开文件
             List<SiteInfo> lstSite = OpenFile(filePath);
 
@@ -117,12 +118,24 @@ namespace calc.distance.console
                 SiteDistance item = sourceList[i];
                 if (item.startCode != item.endCode)
                 {
-                    Geocoder result = JsonHelper.JsonDeserialize<Geocoder>(BaiduMap.Driving(item.startlat.ToString() + "," + item.startlng.ToString(), item.endlat.ToString() + "," + item.endlng.ToString()));
-                    if (result != null && result.result != null && result.result.routes != null && result.result.routes.Count > 0)
+
+
+                    #region 百度部分
+                    //Geocoder result = JsonHelper.JsonDeserialize<Geocoder>(BaiduMap.Driving(item.startlat.ToString() + "," + item.startlng.ToString(), item.endlat.ToString() + "," + item.endlng.ToString()));                    
+                    //if (result != null && result.result != null && result.result.routes != null && result.result.routes.Count > 0)
+                    //{
+                    //    item.distance = result.result.routes[0].distance;
+                    //    item.runTime = result.result.routes[0].duration / 60;
+                    //    item.steps = GetSteps(result.result.routes[0].steps);
+                    //}
+                    #endregion
+                    string result = GaodeMap.Truck(item.startlng.ToString() + "," + item.startlat.ToString(), item.endlng.ToString() + "," + item.endlat.ToString(), "3");
+                    GaodeResult gdResult = JsonHelper.JsonDeserialize<GaodeResult>(result);
+                    if (gdResult != null && "0".Equals(gdResult.errcode))
                     {
-                        item.distance = result.result.routes[0].distance;
-                        item.runTime = result.result.routes[0].duration / 60;
-                        item.steps = GetSteps(result.result.routes[0].steps);
+                        item.distance = gdResult.data.route.paths[0].distance;
+                        item.runTime = gdResult.data.route.paths[0].duration / 60;
+                        item.steps = GetSteps(gdResult.data.route.paths[0].steps);
                     }
                 }
                 else
@@ -133,13 +146,6 @@ namespace calc.distance.console
                 item.sn = i;
                 destList.Add(item);
                 Console.WriteLine("当前运算进度:" + ((decimal)destList.Count / sourceList.Count * 100).ToString("#0.00") + "%-----》正在获取" + item.startName + "===" + item.endName + "信息\n");
-                //Console.WriteLine(Thread.CurrentThread.Name + ": End!");
-                //if (sourceList.Count == destList.Count)
-                //{
-                //    expExcel();
-                //    Console.WriteLine("输出完成——》共生成" + destList.Count + "条数据，耗时：" + (DateTime.Now - startTime).Milliseconds);
-                //    Console.ReadKey();
-                //}
             }
             p.Item2.Set();
         }
@@ -150,6 +156,16 @@ namespace calc.distance.console
             foreach (var item in lstStep)
             {
                 s += item.road_name + "->";
+            }
+            return s;
+        }
+
+        private static string GetSteps(List<GaodeStep> lstStep)
+        {
+            string s = string.Empty;
+            foreach (var item in lstStep)
+            {
+                s += item.instruction + "->";
             }
             return s;
         }
@@ -165,7 +181,7 @@ namespace calc.distance.console
             List<SiteInfo> lstSite = ConvertHelper<SiteInfo>.ConvertToList(dt);
             foreach (var site in lstSite)
             {
-                Geocoder geocoder = JsonHelper.JsonDeserialize<Geocoder>(BaiduMap.Geocoder(site.address));
+                BaiduResult geocoder = JsonHelper.JsonDeserialize<BaiduResult>(BaiduMap.Geocoder(site.address));
                 site.lat = geocoder.result.location.lat;
                 site.lng = geocoder.result.location.lng;
             }
